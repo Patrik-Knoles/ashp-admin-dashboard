@@ -24,8 +24,11 @@ interface SidebarProps {
 }
 
 export function Sidebar({
-  menuItems, currentPage, onNavigate
-}: SidebarProps) { 
+  isOpen,
+  onNavigate,
+  currentPage,
+  onToggle,
+}: SidebarProps) {
   const menuItems = [
     {
       id: "dashboard",
