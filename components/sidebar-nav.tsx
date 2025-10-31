@@ -82,7 +82,7 @@ export function Sidebar({
         )}
       >
         {/* Menu items */}
-        <nav className="flex-1 p-2 space-y-1 overflow-hidden mt-20">
+        <nav className="flex-1 p-2 space-y-1 overflow-hidden mt-25">
           {menuItems.map((item) => {
             const Icon = item.icon;
             const isActive = currentPage === item.id;
@@ -111,7 +111,7 @@ export function Sidebar({
             <Image
               src="/ASHP Powered by Betti_horizontal.png" // replace with your image path
               alt="ASHP Admin Logo"
-              width={200} // adjust size as needed
+              width={190} // adjust size as needed
               height={30}
               className="object-contain"
             />

@@ -14,11 +14,11 @@ export function DashboardHeader({ onMenuClick }: DashboardHeaderProps) {
       <div className="px-6 py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Image
-            src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/ASHP%20logo_horiz%20color%20TM-cWNFW8zLMIFB6rdjhC8iviEWT2wkrn.png"
+            src="/ASHP Powered by Betti_horizontal.png"
             alt="ASHP Logo"
             width={120}
             height={40}
-            className="h-10 w-auto"
+            className="h-15 w-auto"
           />
         </div>
 
@@ -35,5 +35,5 @@ export function DashboardHeader({ onMenuClick }: DashboardHeaderProps) {
         </div>
       </div>
     </header>
-  )
+  );
 }
