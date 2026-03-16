@@ -7,7 +7,7 @@ import { Download } from "lucide-react"
 const grants = [
   {
     id: 1,
-    name: "ASHP Program",
+    name: "City Housing Program",
     funded: 1200,
     completed: 1050,
     budget: "$2.4M",

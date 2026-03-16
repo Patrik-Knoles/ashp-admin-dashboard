@@ -4,8 +4,8 @@ import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "ASHP Admin Dashboard",
-  description: "Affordable Smart Housing Programs - Admin Dashboard",
+  title: "City and Transitional Housing",
+  description: "City and Transitional Housing - Admin Dashboard",
   generator: "v0.app",
 }
 

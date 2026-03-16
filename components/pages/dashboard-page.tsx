@@ -12,7 +12,7 @@ export function DashboardPage() {
     <main className="p-4 md:p-6 space-y-6">
       <div>
         <h1 className="text-3xl font-bold text-foreground mb-2">Dashboard</h1>
-        <p className="text-muted-foreground">Welcome back to ASHP Admin Dashboard</p>
+        <p className="text-muted-foreground">Welcome back to City and Transitional Housing</p>
       </div>
       <KPICards />
       <DashboardLayout>

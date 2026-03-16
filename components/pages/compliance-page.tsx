@@ -9,8 +9,8 @@ export function CompliancePage() {
   const complianceReports = [
     {
       id: 1,
-      title: "ASHP Program Compliance",
-      description: "Affordable Smart Housing Program requirements",
+      title: "City Housing Program Compliance",
+      description: "City and Transitional Housing program requirements",
       progress: 92,
       lastUpdated: "2024-10-20",
       status: "On Track",

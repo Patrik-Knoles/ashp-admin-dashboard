@@ -40,7 +40,7 @@ const kpiData = [
     label: "Active Alerts",
     value: "23",
     icon: AlertCircle,
-    color: "bg-orange-500",
+    color: "bg-[#0A588D]",
     trend: "-3",
     trendUp: false,
   },
@@ -48,7 +48,7 @@ const kpiData = [
 
 export function KPICards() {
   return (
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 md:gap-4">
       {kpiData.map((kpi, index) => {
         const Icon = kpi.icon
         return (
